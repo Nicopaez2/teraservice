@@ -1,36 +1,112 @@
 body {
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(175, 124, 29);
 }
-h1 {
-    color: brown;
-    margin-left: 450px;
-    margin-top: 100px;
-}
-form{
-    margin-left: 450px;
-    
-}
-p {
-   text-transform: capitalize;
-    color: rgb(74, 87, 207);
-}
-.text {
-    background-color: rgb(8, 253, 0);
-    color: rgb(8, 253, 0);
-}
-  
-button {
 
-    background-color: #fafafa; /* Green */
-  border: purple;
-  color: rgb(255, 0, 0);
-  padding: 15px 32px;
-  text-align: center;
+.Barra {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   border: 2px solid rgb(131, 27, 27) ;
+}
+.Titulo {
+color: rgb(19, 209, 130);
+font-size: 24px;
+margin: 0;
+ background-color: transparent;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 5px 5px;
-  cursor: pointer;
-  border-radius: 40%;
 
+}
+.imagen{
+    width: 100px;
+    height: 100px;
+}
+.sin-subrayado {
+    text-decoration: none;
+}
+.barra-2{
+  background-color:rgb(175, 124, 29); 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(18, 65, 65);
+}
+
+li {
+  float: left;
+}
+
+li a, .Seguridad-contenido {
+  display: inline-block;
+  color: rgb(230, 240, 233);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .Menu:hover .Seguridad-contenido {
+  background-color: rgb(143, 17, 143);
+}
+
+li.Menu {
+  display: inline-block;
+}
+
+.Seguridad-contenido-1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.Seguridad-contenido-1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.Seguridad-contenido-1 a:hover {background-color: #f1f1f1;}
+
+.Menu:hover .Seguridad-contenido-1 {
+  display: block;
+}
+.card{
+  background-color: black;
+  color: white;
+  padding: 1em;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.card-title{
+  font-size: 25px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-description{
+  font-size: 18px;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cards-container{
+  display: grid;
+  gap: 1em;
+}
+@media(min-width: 420px){
+  .cards-container{
+      grid-template-columns: 1fr 1fr 1fr;
+  }
 }

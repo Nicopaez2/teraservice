@@ -1,0 +1,69 @@
+body {
+    background-color:rgb(175, 124, 29);
+}
+.sin-subrayado {
+text-decoration: none;
+
+}
+h1 {
+    color: rgb(28, 196, 238);
+    text-align: center;
+    
+}
+.autorizado{
+text-align: center;
+
+}
+.Nav {
+    
+    color: rgb(68, 66, 35);
+    margin-left: 110px;
+    margin-top: 60px;
+}
+
+
+
+form{
+    margin-left: 450px;
+    
+}
+p {
+   text-transform: capitalize;
+    color: rgb(28, 196, 238);
+}
+.text {
+    background-color: rgb(8, 253, 0);
+    color: rgb(8, 253, 0);
+}
+  
+button {
+
+    background-color: #fafafa; /* Green */
+  border: purple;
+  color: rgb(255, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 5px;
+  cursor: pointer;
+  border-radius: 40%;
+
+}
+.Barra {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid rgb(131, 27, 27) ;
+ }
+ .Titulo {
+ color: rgb(19, 209, 130);
+ font-size: 24px;
+ margin: 0;
+ 
+ }
+ .imagen{
+     width: 100px;
+     height: 100px;
+ }
